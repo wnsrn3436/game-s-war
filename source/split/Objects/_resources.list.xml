@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="1" type="RESOURCE"/>
+  <resource name="ㅇㅇ" type="RESOURCE"/>
+  <resource name="object2" type="RESOURCE"/>
+  <resource name="2" type="RESOURCE"/>
+  <resource name="object6" type="RESOURCE"/>
+  <resource name="object7" type="RESOURCE"/>
+  <resource name="object8" type="RESOURCE"/>
+  <resource name="object9" type="RESOURCE"/>
+  <resource name="그리기" type="RESOURCE"/>
+  <resource name="1탄깨기" type="RESOURCE"/>
+  <resource filename="저장_불르기" name="저장.불르기" type="RESOURCE"/>
+  <resource name="팀" type="RESOURCE"/>
+  <resource name="팀2" type="RESOURCE"/>
+  <resource name="배경음" type="RESOURCE"/>
+  <resource name="2탄깨기" type="RESOURCE"/>
+  <resource filename="플1_2스킬" name="플1.2스킬" type="RESOURCE"/>
+  <resource name="쉴드" type="RESOURCE"/>
+  <resource name="쉴드2" type="RESOURCE"/>
+  <resource name="다시시작" type="RESOURCE"/>
+  <resource name="개난사" type="RESOURCE"/>
+  <resource name="개난사2" type="RESOURCE"/>
+  <resource name="쉴드1" type="RESOURCE"/>
+  <resource name="쉴드22" type="RESOURCE"/>
+  <resource name="난사" type="RESOURCE"/>
+  <resource name="난사2" type="RESOURCE"/>
+</resources>
