@@ -1,6 +1,8 @@
 # S War
 
-A two player co-op shooter played side by side on one keyboard.
+[한국어](README.ko.md)
+
+A two-player co-op shooter played side by side on one keyboard.
 
 <p>
   <img src="docs/screenshots/screenshot-1.png" width="480" alt="Gameplay">
@@ -16,16 +18,16 @@ Download from Releases and run it.
 | 1P | Arrow keys | J, L |
 | 2P | WASD | T, U |
 
-Bullets fire on their own when you get near an enemy. The skill keys raise a shield or boost movement speed, and the effect wears off after 200 steps. Z and X save and load, and P restarts. There are three stages.
+Bullets fire on their own when you get near an enemy. The skill keys raise a shield or boost movement speed, and the effect wears off after 200 steps. Z and X save and load, and pressing P restarts. There are three stages.
 
-Both players share a single health pool, shown in the title bar as "우리의채력". Using a skill costs health: 30 for the speed boost and 20 for the shield. When health reaches 0, restart with P.
+Both players share a single health pool, shown in the window title bar as "우리의채력". Using a skill costs health: 30 for the speed boost and 20 for the shield. When health reaches 0, restart with P.
 
 
 ## How it works
 
-Health is managed through GameMaker's single built in `lives` value. That is why both players share one health pool, and skill costs come out of the same value.
+The game keeps health in a single value, GameMaker's built-in `lives`. That is why both players share one health pool and skill costs come out of the same value.
 
-Enemy detection uses an action library from the community. Anything within a short range is detected outright, and a longer range only counts when the target falls inside the field of view in the facing direction. This game sets both ranges to 90, so detection is by distance alone. The library has to be installed for the project to open in GameMaker.
+Enemy detection uses an action library from the community. Anything within a set range is always detected, and anything farther away is detected only when it is inside the field of view around the facing direction. This game sets both ranges to 90, so detection depends on distance alone. GameMaker will not open the project unless this library is installed.
 
 
 ## Files
@@ -36,7 +38,7 @@ Enemy detection uses an action library from the community. Anything within a sho
 | `source/lib/AI.lib` | Action library used for enemy detection. Put it in GameMaker's `lib` folder or the project will not open |
 | `source/split/` | Text tree produced by GmkSplitter |
 | `docs/screenshots/` | Screenshots |
-| Releases | Distributed build |
+| Releases | Files for distribution |
 
 
 ## Credits
@@ -46,4 +48,4 @@ Enemy detection uses an action library from the community. Anything within a sho
 
 ## License
 
-CC BY-NC-ND 4.0. Unmodified copies may be shared for noncommercial purposes with attribution. Modified versions and commercial use are not allowed. Bundled libraries, graphics, sounds, and maps made by other people keep their own rights. See [LICENSE](LICENSE).
+CC BY-NC-ND 4.0. Unmodified copies may be shared for noncommercial purposes with attribution. Distributing modified versions and commercial use are not allowed. Bundled libraries, graphics, sounds, and maps made by other people keep their own rights. See [LICENSE](LICENSE).
